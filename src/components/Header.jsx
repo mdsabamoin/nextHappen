@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Navbar, Nav, Button } from "react-bootstrap";
 import "./Header.css";
-import Image from "react-bootstrap/Image";
 const Header = () => {
   return (
     <Navbar bg="dark" expand="lg" variant="dark" className="shadow-sm">
