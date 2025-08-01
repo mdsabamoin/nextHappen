@@ -14,7 +14,7 @@ const TrustedBy = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setActiveIndex((prev) => (prev + 1) % logos.length);
+      setActiveIndex((prevs) => (prevs + 1) % logos.length);
     }, 2000);
 
     return () => clearInterval(interval);
