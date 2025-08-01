@@ -1,0 +1,24 @@
+/* .logo-img {
+  transition: transform 1s ease;
+}
+
+.logo-img.rotate {
+  transform: rotateX(360deg);
+} */
+.logo-img {
+  display: inline-block;
+  animation: none;
+}
+
+.logo-img.rotate {
+  animation: smooth-rotate 1s ease-in-out;
+}
+
+@keyframes smooth-rotate {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(360deg);
+  }
+}

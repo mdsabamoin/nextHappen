@@ -1,0 +1,8 @@
+footer a:hover {
+  color: #ffc107; /* golden hover */
+  text-decoration: none;
+}
+
+footer h5 {
+  color: #ffcc66;
+}
