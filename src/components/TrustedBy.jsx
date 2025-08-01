@@ -5,8 +5,8 @@ import "./LogoRotator.css";
 const TrustedBy = () => {
   const logos = [
     "/images/logo1ff.png",
-    "/images/logo2ff.png",
-    "/images/logo3ff.png",
+    "/images/Logo2ff.png",
+    "/images/Logo3ff.png",
     "/images/logo4ff.png",
   ];
 
@@ -30,20 +30,6 @@ const TrustedBy = () => {
             </h2>
           </Col>
         </Row>
-        {/* <Row className="justify-content-center align-items-center g-4">
-          <Col xs={6} md={4} lg={2} className="text-center">
-            <img src="/images/logo1ff.png" alt="Trusted company" className="img-fluid" style={{ height: '100px', width:"100px",opacity: '0.7' }} />
-          </Col>
-          <Col xs={6} md={4} lg={2} className="text-center">
-            <img src="/images/logo2ff.png" alt="Trusted company" className="img-fluid" style={{ height: '100px',width:"100px", opacity: '0.7' }} />
-          </Col>
-          <Col xs={6} md={4} lg={2} className="text-center">
-            <img src="/images/logo3ff.png" alt="Trusted company" className="img-fluid" style={{ height: '100px', width:"100px",opacity: '0.7' }} />
-          </Col>
-          <Col xs={6} md={4} lg={2} className="text-center">
-            <img src="/images/logo4ff.png" alt="Trusted company" className="img-fluid" style={{ height: '100px', width:"100px",opacity: '0.7' }} />
-          </Col>
-        </Row> */}
 
         <Row className="justify-content-center align-items-center g-4">
           {logos.map((logo, index) => (
