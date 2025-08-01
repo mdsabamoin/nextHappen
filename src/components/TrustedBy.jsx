@@ -30,6 +30,7 @@ const TrustedBy = () => {
             </h2>
           </Col>
         </Row>
+
         <Row className="justify-content-center align-items-center g-4">
           {logos.map((logo, index) => (
             <Col key={index} xs={6} md={4} lg={2} className="text-center">
