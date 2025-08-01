@@ -5,8 +5,8 @@ import "./LogoRotator.css";
 const TrustedBy = () => {
   const logos = [
     "/images/logo1ff.png",
-    "/images/logo2ff.png",
-    "/images/logo3ff.png",
+    "/images/a2ff.png",
+    "/images/a3ff.png",
     "/images/logo4ff.png",
   ];
 
